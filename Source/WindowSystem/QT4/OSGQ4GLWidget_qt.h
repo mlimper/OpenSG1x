@@ -71,7 +71,7 @@
 
 #include "OSGConfig.h"
 #include "OSGWindowQT4Def.h"
-#include <OSGBaseTypes.h>
+#include "OSGBaseTypes.h"
 
 OSG_BEGIN_NAMESPACE
 
@@ -139,7 +139,7 @@ typedef OSGQGLWidget *OSGQGLWidgetP;
 
 OSG_END_NAMESPACE
 
-#include <OSGQ4GLWidget_qt.inl>
+#include "OSGQ4GLWidget_qt.inl"
 
 #define OSGQGLWIDGET_HEADER_CVSID "@(#)$Id: OSGQ4GLWidget_qt.h,v 1.2 2007/02/26 13:37:38 yjung Exp $"
 
