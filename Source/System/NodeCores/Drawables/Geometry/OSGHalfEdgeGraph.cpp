@@ -336,7 +336,7 @@ UInt32 HalfEdgeGraph::calcOptPrim(UInt32 extIteration,
             triangle->state = DEGREE_0;
         }
 
-        degreeBag[0].paste(_invalidTriangleBag);
+        _validTriangleBag.paste(_invalidTriangleBag);
     }
 
     if(doFan)
